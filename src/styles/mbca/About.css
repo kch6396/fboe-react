@@ -1,0 +1,116 @@
+h1 {
+  font-size: 45px;
+  color: rgb(69, 48, 138);
+  font-weight: bold;
+  margin-top: 4px;
+  padding-top: 10px;
+  text-align: center;
+}
+p {
+  font-size: 18.5px;
+  font-weight: bold;
+  text-align: left;
+}
+/* .back-to-position.to-down {
+  transform: translateY(150px);
+} */
+/* MBCA--WAHT */
+.MBCA--what {
+  width: 100%;
+}
+.MBCA--what .inner {
+  padding: 80px 0;
+}
+.MBCA--what .inner h2 {
+  font-size: 30px;
+  color: rgb(69, 48, 138);
+  font-weight: bold;
+  text-align: center;
+}
+.MBCA--what .MBCA--what__image {
+  width: 100%;
+}
+.MBCA--what .MBCA--what__image img {
+  width: 99%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 20px 0;
+}
+.what--divider {
+  max-width: 1300px;
+  height: 5px;
+  background-color: rgb(69, 48, 138);
+}
+/* STRENGTH */
+.MBCA--strength {
+  width: 100%;
+}
+.MBCA--strength .inner {
+  max-width: 1300px;
+  padding: 80px 0;
+}
+.MBCA--strength .MBCA--strength__image {
+  display: flex;
+  padding: 40px 0;
+}
+.MBCA--strength .MBCA--strength__image img {
+  width: 48%;
+  justify-content: center;
+  margin: auto;
+}
+.MBCA--strength h2 {
+  width: 95%;
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  padding-top: 30px;
+  margin: auto;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  /* MBCA--WHAT */
+  .MBCA--what .inner h1 {
+    text-align: center;
+    width: 99%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 30px;
+  }
+  .MBCA--what .inner h2 {
+    text-align: center;
+    width: 99%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 23px;
+  }
+  .MBCA--what .MBCA--what__image p {
+    width: 95%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  /* STRENGTH */
+  .MBCA--strength h1 {
+    font-size: 30px;
+  }
+  .MBCA--strength h2 {
+    font-size: 20px;
+    padding-top: 15px;
+  }
+  .MBCA--strength .MBCA--strength__image {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .MBCA--strength .MBCA--strength__image img {
+    width: 90%;
+  }
+  .MBCA--strength .MBCA--strength__image img:first-child {
+    margin-bottom: 10px;
+  }
+}

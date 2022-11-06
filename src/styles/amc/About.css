@@ -1,0 +1,140 @@
+/*INNER*/
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+h1 {
+  font-size: 45px;
+  color: rgb(69, 48, 138);
+  font-weight: bold;
+  margin-top: 4px;
+  padding-top: 10px;
+  text-align: center;
+}
+p {
+  font-size: 18.5px;
+  font-weight: bold;
+}
+
+/* AMC--WAHT */
+.AMC--what {
+  width: 100%;
+}
+.AMC--what .inner {
+  padding: 80px 0;
+}
+.AMC--what .inner h2 {
+  font-size: 30px;
+  color: rgb(69, 48, 138);
+  font-weight: bold;
+  text-align: center;
+}
+.AMC--what .AMC--what__image {
+  width: 80%;
+  margin: auto;
+}
+.AMC--what .AMC--what__image img {
+  width: 99%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 40px 0;
+}
+.what--divider {
+  max-width: 1500px;
+  height: 5px;
+  background-color: rgb(69, 48, 138);
+}
+/* STRENGTH */
+.AMC--strength {
+  width: 100%;
+}
+.AMC--strength .inner {
+  max-width: 1500px;
+  padding: 80px 0;
+}
+.AMC--strength .AMC--strength__image {
+  display: flex;
+  padding: 40px 0;
+  justify-content: center;
+}
+.AMC--strength .AMC--strength__image img {
+  max-width: 350px;
+  width: 80%;
+  margin: auto;
+}
+.AMC--strength p {
+  width: 95%;
+  font-size: 30px;
+  color: #333;
+  font-weight: bold;
+  padding-top: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  /* AMC--WHAT */
+  .AMC--what .inner h1 {
+    text-align: center;
+    width: 99%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 30px;
+  }
+  .AMC--what .inner h2 {
+    text-align: center;
+    width: 99%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 23px;
+  }
+  .AMC--what .AMC--what__image p {
+    width: 95%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  /* STRENGTH */
+  .AMC--strength h1 {
+    font-size: 30px;
+  }
+  .AMC--strength h2 {
+    font-size: 20px;
+    padding-top: 15px;
+  }
+  .AMC--strength .AMC--strength__image {
+    /* flex-direction: column; */
+    padding: 20px 0;
+  }
+  .AMC--strength .AMC--strength__image img {
+    width: 95%;
+  }
+  .AMC--strength p {
+    /* padding:0 0 30px 0; */
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* AMC--WHAT */
+  .AMC--what .AMC--what__image {
+    width: 99%;
+  }
+
+  /* STRENGTH */
+  .AMC--strength .AMC--strength__image {
+    flex-direction: column;
+  }
+  .AMC--strength .AMC--strength__image img {
+    max-width: 200px;
+  }
+  .AMC--strength p {
+    padding: 10px 0 30px 0;
+  }
+}
